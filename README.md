@@ -15,9 +15,7 @@ For example, given array A such that:
 we can find two equi leaders:
 0, because sequences: (4) and (3, 4, 4, 4, 2) have the same leader, whose value is 4.
 2, because sequences: (4, 3, 4) and (4, 4, 2) have the same leader, whose value is 4.
-The goal is to count the number of equi leaders. Write a function:
-class Solution { public int solution(int[] A); }
-that, given a non-empty zero-indexed array A consisting of N integers, returns the number of equi leaders.
+The goal is to count the number of equi leaders. Write a function that, given a non-empty zero-indexed array A consisting of N integers, returns the number of equi leaders.
 
 For example, given:
     A[0] = 4
@@ -27,6 +25,7 @@ For example, given:
     A[4] = 4
     A[5] = 2
 the function should return 2, as explained above.
+
 Assume that:
 N is an integer within the range [1..100,000];
 each element of array A is an integer within the range [−1,000,000,000..1,000,000,000].
